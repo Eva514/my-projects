@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>JS+CSS3实现带预览图幻灯片</title>
+    <link href="main.css" rel="stylesheet">
 </head>
 <body>
+<div class="slide">
+    <!-- 修改view－>template（关键字替换），增加template id-->
+    <div class="main" id="template-main">
+        <div class="main-i" id="main-{{index}}">
+            <div class="caption">
+                <h2>{{h2}}</h2>
+                <h3>{{h3}}</h3>
+            </div>
+            <img src="images/{{index}}.jpg" class="picture">
+        </div>
+    </div>
+    <div class="ctrl" id="template-ctrl">
+        <a class="ctrl-i" id="ctrl-{{index}}" href="javascript:switchSlider({{index}});"><img src="images/{{index}}.jpg"></a>
+    </div>
+</div>
 
+<script src="main.js"></script>
 </body>
 </html>

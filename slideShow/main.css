@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 50px 0;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: 'Avenir Next';
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+}
+.slide, .slide .main, .slide .main .main-i {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+/*幻灯片区域样式*/
+.slide .main {
+    overflow: hidden;
+}
+   /*每张幻灯片的样式*/
+.slide .main .main-i .caption {
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    z-index: 9;
+    margin-right: 13%;
+}
+.slide .main .main-i .caption h2 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #B5B5B5;
+    text-align: right;
+}
+.slide .main .main-i .caption h3 {
+    font-size: 70px;
+    line-height: 70px;
+    color: #000;
+    text-align: right;
+    font-family: 'Open Sans Condensed';
+}
+.slide .main .main-i img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+}
+
+/*控制区域样式*/
+.slide .ctrl {
+    position: absolute;
+    width: 100%;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    bottom: -13px;
+}
+.slide .ctrl .ctrl-i {
+    position: relative;
+    margin-left: 1px;
+    display: inline-block;
+    width: 150px;
+    height: 13px;
+    background-color: #666;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.slide .ctrl .ctrl-i img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    z-index: 1;
+    opacity: 0;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+}
+/*hover 控制按钮样式*/
+.slide .ctrl .ctrl-i:hover {
+    background-color: #f0f0f0;
+}
+.slide .ctrl .ctrl-i:hover img {
+    bottom: 13px;
+    /*图片倒影*/
+    -webkit-box-reflect: below 0px -webkit-gradient(
+        linear, 
+        left top, 
+        left bottom, 
+        from(transparent), 
+        color-stop(50%, transparent), 
+        to(rgba(255, 255, 255, 0.3))
+        );
+    opacity: 1;
+}
+/*active 当前展现的状态*/
+.slide .main .main-i{
+    position: absolute;
+    right: 50%;
+    top: 0;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    opacity: 0;
+}
+.slide .main .main-i h2{
+    margin-right: 45px;
+}
+.slide .main .main-i h3{
+    margin-right: -45px;
+}
+.slide .main .main-i h2, .slide .main .main-i h3{
+    opacity: 0;
+    transition: all .8s 1s;
+    -webkit-transition: all 1s .8s;
+}
+.slide .main .main-i-active {
+    opacity: 1;
+    right: 0;
+}
+.slide .main .main-i-active h2, .slide .main .main-i-active h3 {
+    margin-right: 0;
+    opacity: 1;
+}
+
+.slide .ctrl .ctrl-i-active, .slide .ctrl .ctrl-i-active:hover {
+    background-color: #000;
+}
+.slide .ctrl .ctrl-i-active:hover img {
+    opacity: 0;
+}
