@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5db429c-7156-4392-9c1f-75783adda485" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sideBar/js/backtop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sideBar/js/scrollTo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sideBar/img/Thumbs.db" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sideBar/css/index.css" afterPath="$PROJECT_DIR$/sideBar/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sideBar/index.html" afterPath="$PROJECT_DIR$/sideBar/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sideBar/css/index.scss" afterPath="$PROJECT_DIR$/sideBar/css/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sideBar/js/main.js" afterPath="$PROJECT_DIR$/sideBar/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="my-projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,21 +27,31 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sideBar/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.875">
-              <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
+            <state vertical-scroll-proportion="-1.125">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sideBar/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7908163">
+            <state vertical-scroll-proportion="0.0">
               <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="e#0#37#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28089887">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,7 +127,6 @@
         <option value="$PROJECT_DIR$/fullpage-appleWatch/index.js" />
         <option value="$PROJECT_DIR$/slideShow/index.html" />
         <option value="$PROJECT_DIR$/slideShow/main.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/slideShow/main.css" />
         <option value="$PROJECT_DIR$/sideBar/css/index.css" />
         <option value="$PROJECT_DIR$/sideBar/css/index.scss" />
@@ -133,6 +134,7 @@
         <option value="$PROJECT_DIR$/sideBar/js/scrollTo.js" />
         <option value="$PROJECT_DIR$/sideBar/js/backtop.js" />
         <option value="$PROJECT_DIR$/sideBar/js/main.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -509,12 +511,12 @@
       <workItem from="1460684069782" duration="7398000" />
       <workItem from="1460708144348" duration="2795000" />
       <workItem from="1460965022378" duration="6144000" />
-      <workItem from="1461028354938" duration="15196000" />
+      <workItem from="1461028354938" duration="15368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35599000" />
+    <option name="totallyTimeSpent" value="35771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="708" extended-state="6" />
@@ -656,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21314387">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slideShow/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.076271184">
@@ -721,14 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sideBar/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.875">
-          <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sideBar/js/scrollTo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -751,11 +738,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sideBar/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7908163">
+        <state vertical-scroll-proportion="0.0">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="e#0#37#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sideBar/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.125">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28089887">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
