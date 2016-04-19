@@ -2,11 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>侧栏工具条示例</title>
+    <title>侧栏工具条示例--三种方式实现</title>
     <link href="css/index.css" rel="stylesheet">
 </head>
 <body>
-<div class="toolbar">
+<!-- 三种方式的优点：方式1HTML结构简单，兼容性良好，可以兼容到IE6；方式2与方式3避免了图片的使用，节约了性能，并且方便修改
+三种方式的缺点：方式1使用了大量图片，对性能有一定影响，并且不利于修改；方式2HTML结构复杂，不兼容IE6、IE7；方式3HTML结构简单，但css稍显复杂，不兼容IE6、IE7-->
+
+<!--方式1:使用背景图片的方式-->
+<!-- <div class="toolbar">
 	<a href="javascript:;" class="toolbar-item toolbar-item-weixin">
 		<span class="toolbar-layer"></span>
 	</a>
@@ -15,7 +19,155 @@
 		<span class="toolbar-layer"></span>
 	</a>
 	<a href="javascript:;" class="toolbar-item toolbar-item-top"></a>
+</div> -->
+
+
+<!--方式2:使用图标字体的方式-->
+<!--<div class="toolbar">
+	<a href="javascript:;" class="toolbar-item">
+		<span class="toolbar-btn">
+			<i class="iconfont">&#xe60a;</i>
+			<span class="toolbar-text">公众<br/>账号</span>
+		</span>
+		<span class="toolbar-layer toolbar-layer-weixin"></span>
+	</a>
+	<a href="javascript:;" class="toolbar-item">
+		<span class="toolbar-btn">
+			<i class="iconfont">&#xe638;</i>
+			<span class="toolbar-text">意见<br/>反馈</span>
+		</span>
+	</a>
+	<a href="javascript:;" class="toolbar-item">
+		<span class="toolbar-btn">
+			<i class="iconfont">&#xe6af;</i>
+			<span class="toolbar-text">app<br/>下载</span>
+		</span>
+		<span class="toolbar-layer toolbar-layer-app"></span>
+	</a>
+	<a href="javascript:;" class="toolbar-item">
+		<span class="toolbar-btn">
+			<i class="iconfont">&#xe63b;</i>
+			<span class="toolbar-text">返回<br/>顶部</span>
+		</span>
+	</a>
+</div>-->
+
+<!--方式3:使用after和before伪类的方式-->
+<div class="toolbar">
+	<a href="javascript:;" class="toolbar-item toolbar-item-weixin">
+		<span class="toolbar-btn"></span>
+	</a>
+	<a href="javascript:;" class="toolbar-item toolbar-item-feedback">
+		<span class="toolbar-btn"></span>
+	</a>
+	<a href="javascript:;" class="toolbar-item toolbar-item-app">
+		<span class="toolbar-btn"></span>
+	</a>
+	<a href="javascript:;" class="toolbar-item toolbar-item-top" id="backTop">
+		<span class="toolbar-btn"></span>
+	</a>
 </div>
+
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js" data-main="js/main"></script>
 </body>
 </html>
