@@ -2,8 +2,10 @@
 	margin: 0;
 	padding: 0;
     border: none;
-    font-size: 1.5625vw;/*vw移动端自适应长度单位，(10px/640px)*100*/
     font-family: "Microsoft Yahei";
+}
+html{
+    font-size: 62.5%;
 }
 html,body{
     height: 100%;
@@ -13,11 +15,11 @@ html,body{
 /* music */
 .music{
     position: fixed;
-    top: 3vh;
-    right: 4vw;
+    top: 2rem;
+    right: 2rem;
     z-index: 5;
-    width: 15vw;
-    height: 15vw;
+    width: 5rem;
+    height: 5rem;
     border: 4px solid #ef1639;
     border-radius: 50%;
     background-color: #fff;
@@ -38,7 +40,6 @@ html,body{
     margin: auto;
     z-index: 0;
     width: 79%;
-    cursor: pointer;
 }
 .music img.play{
     -webkit-animation: music-disc 4s linear infinite;
@@ -90,13 +91,12 @@ html,body{
     right: 0;
     left: 0;
     margin: auto;
-    background: url("img/p1_lantern.png") no-repeat center bottom;
+    background: url("img/p1_lantern.png") no-repeat;
     background-size: 100%;
-    width: 45vw;
-    height: 71.2vh;
-    font-size: 3.506rem;
-    color: #fff;
-    padding-top: 31vh;
+    width: 12rem;
+    height: 32rem;
+    font-size: 2rem;
+    padding-top: 13rem;
     text-align: center;
     box-sizing: border-box;
     -webkit-box-sizing:border-box;
@@ -109,13 +109,13 @@ html,body{
     bottom: 0;
     left: 0;
     margin: auto;
-    width: 30vw;
-    height: 30vw;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
     background: #ff0000;
     opacity: .5;
-    box-shadow: 0 0 10vw 10vw #ff0000;
-    -webkit-box-shadow: 0 0 10vw 10vw #ff0000;
+    box-shadow: 0 0 3rem 3rem #ff0000;
+    -webkit-box-shadow: 0 0 3rem 3rem #ff0000;
 
     -webkit-animation: p1-lantern .5s infinite alternate;
     animation: p1-lantern .5s infinite alternate;
@@ -144,19 +144,19 @@ html,body{
     position: absolute;
     right: 0;
     left: 0;
-    bottom: 9vh;
+    bottom: 5rem;
     margin: auto;
     background: url("img/p1_imooc.png") no-repeat center center;
     background-size: 100%;
-    width: 27.656vw;
-    height: 18.63vh;
+    width: 8rem;
+    height: 10rem;
 }
 #page1 .p1-words{
     position: absolute;
     right: 0;
     left: 0;
-    bottom: 4.8vh;
-    font-size: 2.134rem;
+    bottom: 2rem;
+    font-size: 2rem;
     text-align: center;
     color: #231815;
 }
@@ -185,8 +185,8 @@ html,body{
     margin: auto;
     background: url("img/p2_circle_outer.png") no-repeat center center;
     background-size: 100%;
-    width: 59.375vw;
-    height: 59.375vw;
+    width: 22rem;
+    height: 22rem;
 
     -webkit-animation: circle_outer 1s linear 3s infinite;
     animation: circle_outer 1s linear 3s infinite;
@@ -221,8 +221,8 @@ html,body{
     margin: auto;
     background: url("img/p2_circle_middle.png") no-repeat center center;
     background-size: 100%;
-    width: 45.625vw;
-    height: 45.625vw;
+    width: 17rem;
+    height: 17rem;
 
     -webkit-animation: circle_middle 1s linear 2s infinite;
     animation: circle_middle 1s linear 2s infinite;
@@ -257,8 +257,8 @@ html,body{
     margin: auto;
     background: url("img/p2_circle_inner.png") no-repeat center center;
     background-size: 100%;
-    width: 35.9375vw;
-    height: 35.9375vw;
+    width: 14rem;
+    height: 14rem;
 
     -webkit-animation: circle_inner 1s linear 1s infinite;
     animation: circle_inner 1s linear 1s infinite;
@@ -292,8 +292,8 @@ html,body{
     margin: auto;
     background: url("img/p2_2016.png") no-repeat center center;
     background-size: 100%;
-    width: 27.5vw;
-    height: 6.24vh;
+    width: 10rem;
+    height: 6rem;
 }
 
 /* page3 */
@@ -312,54 +312,54 @@ html,body{
 }
 #page3 .p3-logo{
     position: absolute;
-    top: 7.82vh;
+    top: 10%;
     right: 0;
     left: 0;
     margin: auto;
     background: url("img/p3_logo.png") no-repeat center center;
     background-size: 100%;
-    width: 34.6875vw;
-    height: 6.327vh;
+    width: 35%;
+    height: 10%;
 }
 #page3 .p3-title{
     position: absolute;
-    top: 21vh;
+    top: 18%;
     right: 0;
     left: 0;
     margin: auto;
     background: url("img/p3_title.png") no-repeat center center;
     background-size: 100%;
-    width: 48.125vw;
-    height: 50vh;
+    width: 42%;
+    height: 55%;
 }
 #page3 .p3-coupletLeft{
     position: absolute;
-    top: 25.48vh;
-    left: 3.75vw;
+    top: 26%;
+    left: 6%;
     background: url("img/p3_couplet_second.png") no-repeat center center;
     background-size: 100%;
-    width: 22.8125vw;
-    height: 41.652vh;
+    width: 22%;
+    height: 42%;
 }
 #page3 .p3-coupletRight{
     position: absolute;
-    top: 25.48vh;
-    right: 3.75vw;
+    top: 26%;
+    right: 6%;
     background: url("img/p3_couplet_first.png") no-repeat center center;
     background-size: 100%;
-    width: 22.8125vw;
-    height: 41.652vh;
+    width: 22%;
+    height: 42%;
 }
 #page3 .p3-blessing{
     position: absolute;
-    bottom: 9vh;
+    bottom: 5%;
     right: 0;
     left: 0;
     margin: auto;
     background: url("img/p3_blessing.png") no-repeat center center;
     background-size: 100%;
-    width: 32vw;
-    height: 32vw;
+    width: 30%;
+    height: 30%;
     border-radius: 50%;
 
     -webkit-animation: blessing 2s linear infinite;
