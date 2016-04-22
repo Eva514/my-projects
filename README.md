@@ -12,3 +12,6 @@ sidebar
 
 e-card
   HTML5+CSS3实现新春贺卡效果http://eva514.github.io/my-projects/e-card/index.html
+
+lightbox
+  图片预览效果http://eva514.github.io/my-projects/lightbox/index.html

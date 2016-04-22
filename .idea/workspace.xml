@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5db429c-7156-4392-9c1f-75783adda485" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lightbox/images/2-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lightbox/images/3-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lightbox/images/3-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lightbox/images/3-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lightbox/images/3-5.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox/images/2-1.jpg" afterPath="$PROJECT_DIR$/lightbox/images/2-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox/images/2-2.jpg" afterPath="$PROJECT_DIR$/lightbox/images/2-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox/images/2-3.jpg" afterPath="$PROJECT_DIR$/lightbox/images/2-3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox/images/2-4.jpg" afterPath="$PROJECT_DIR$/lightbox/images/2-4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox/images/2-5.jpg" afterPath="$PROJECT_DIR$/lightbox/images/2-5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox/images/3-1.jpg" afterPath="$PROJECT_DIR$/lightbox/images/3-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox/index.html" afterPath="$PROJECT_DIR$/lightbox/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox/js/main.js" afterPath="$PROJECT_DIR$/lightbox/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox/css/style.css" afterPath="$PROJECT_DIR$/lightbox/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my-projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lightbox/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.958334">
-              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.21201414">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lightbox/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4915254">
-              <caret line="311" column="55" selection-start-line="311" selection-start-column="55" selection-end-line="311" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="302" column="71" selection-start-line="302" selection-start-column="71" selection-end-line="302" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -92,13 +79,13 @@
         <option value="$PROJECT_DIR$/sideBar/js/scrollTo.js" />
         <option value="$PROJECT_DIR$/sideBar/js/backtop.js" />
         <option value="$PROJECT_DIR$/sideBar/js/main.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/e-card/index.js" />
         <option value="$PROJECT_DIR$/e-card/index.html" />
         <option value="$PROJECT_DIR$/e-card/index.css" />
         <option value="$PROJECT_DIR$/lightbox/css/style.css" />
-        <option value="$PROJECT_DIR$/lightbox/index.html" />
         <option value="$PROJECT_DIR$/lightbox/js/main.js" />
+        <option value="$PROJECT_DIR$/lightbox/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -498,12 +485,12 @@
       <workItem from="1461028354938" duration="16493000" />
       <workItem from="1461117961328" duration="15512000" />
       <workItem from="1461201363633" duration="12731000" />
-      <workItem from="1461287342772" duration="20915000" />
+      <workItem from="1461287342772" duration="21156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86054000" />
+    <option name="totallyTimeSpent" value="86295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="708" extended-state="6" />
@@ -770,13 +757,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2222223">
-          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/e-card/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3898305">
@@ -812,18 +792,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lightbox/index.html">
+    <entry file="file://$PROJECT_DIR$/lightbox/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.958334">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="302" column="71" selection-start-line="302" selection-start-column="71" selection-end-line="302" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lightbox/js/main.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4915254">
-          <caret line="311" column="55" selection-start-line="311" selection-start-column="55" selection-end-line="311" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.42628774">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightbox/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21201414">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding />
         </state>
       </provider>
