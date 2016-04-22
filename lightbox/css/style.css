@@ -75,4 +75,5 @@
     width: 27px;
     height: 27px;
     background: url("../icon/close.png") no-repeat center center;
+    cursor: pointer;
 }
