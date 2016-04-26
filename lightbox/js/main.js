@@ -9,7 +9,7 @@
         //保存body
         this.bodyNode = $(document.body);
 
-        //渲染余下的DO，并且插入到body
+        //渲染余下的DOM，并且插入到body
         this.renderDOM();
         this.picView = this.popupWin.find("div.lightbox-pic-view");   //获取图片的预览区域
         this.popupPic = this.popupWin.find("img.lightbox-image");  //获取图片
